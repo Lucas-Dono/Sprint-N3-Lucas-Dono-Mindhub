@@ -1,0 +1,47 @@
+body {
+    background-image: url(../img/fondo-tabla.jpg.png);
+    background-size: cover;
+}
+.peperonni {
+    margin-top: 15rem;
+}
+.uno,.cuatro {
+    margin-left: 20rem;
+}
+.tres{
+    margin-right: 20rem;
+}
+img {
+    height: 11rem;
+}
+article {
+    display: inline-block;
+}
+.uno {
+    transform: rotate(120deg);
+    position: relative;
+    left: 6rem; top: 2.5rem;
+}
+.dos {
+    transform: rotate(180deg);
+}
+.tres {
+    transform: rotate(240deg);
+    position: relative;
+    right: 6rem; top: 2.5rem;
+}
+.cuatro {
+    transform: rotate(-120deg);
+    position: relative;
+    left: 6.4rem; bottom: 3.2rem;
+}
+.cinco {
+    transform: rotate(180deg);
+    position: relative;
+    left:1.5rem ;; bottom: 1rem;
+}
+.seis {
+    transform: rotate(-240deg);
+    position: relative;
+    right: 3.5rem ; bottom: 3.5rem;
+}

@@ -1,0 +1,14 @@
+.box {
+    border: 0.2rem solid darkblue;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: beige;
+}
+.fb {
+    display: flex;
+    flex-flow: wrap;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}

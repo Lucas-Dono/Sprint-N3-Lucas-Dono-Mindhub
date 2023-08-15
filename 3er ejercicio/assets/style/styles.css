@@ -1,0 +1,19 @@
+body {
+    background-image: url(../img/pizarra.jpg);
+    background-size: cover;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+.frutas {
+    color: white;
+    display: inline-block;
+    margin-left: 11rem;
+    text-align: center;
+}
+.Img-frutas {
+    height: 11rem;
+    
+
+}

@@ -1,0 +1,141 @@
+/*estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+nav img{
+    height: 17px;
+    position: relative;
+    left: 11rem;
+}
+
+/*Index*/
+.logo {
+    height: 3rem;
+    position: relative;
+    left: 70rem;
+}
+nav {
+    display: inline-block;
+    position: relative;
+    bottom: 1.5rem;
+}
+.nav {
+
+    width: 100%;
+    white-space: nowrap;
+    background-color: rgb(156, 154, 174);
+}
+.ancor-nav {
+    position: relative;
+    left: 11rem;
+}
+.logo {
+    position: relative;
+    right: 11rem;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.first-image {
+    height: 30rem;
+}
+.image-container {
+    text-align: center;
+}
+.div-content {
+    margin-top: 5%;
+}
+.text-image {
+    width: 30%;
+    margin-left: 15%;
+    display: inline-block;
+    position: relative;
+    bottom: 28rem;
+}
+.image-text {
+    width: 25%;
+    margin-left: 8%;
+}
+.text-image2 {
+    width: 30%;
+    margin-left: 15%;
+    display: inline-block;
+    position: absolute;
+    top: 50rem; right: 49rem;
+}
+footer {
+    display: block;
+    background-color: rgb(156, 154, 174);
+    text-align: center;
+    margin-top: 1rem;
+    height: 5rem;
+  }
+  .footer {
+    display: inline;
+    font-size: 1rem;
+    position: relative;
+    bottom: 15%;
+  }
+  .barra {
+    border: 1px solid black; /* Puedes ajustar el color y grosor de la barra aquí */
+    margin: 10px auto;
+    width: 0.1rem; /* Ajusta el ancho de la barra según tus necesidades */
+    height: 15%;
+    display: inline-block;
+  }
+  /*About us*/
+  .img-about-us {
+    width: 25%;
+    margin-left: 15%;
+  }
+  .text-image-about-us {
+    width: 30%;
+    margin-left: 3%;
+    display: inline-block;
+    position: relative;
+    bottom: 23rem;
+  }
+  .text-image-about-us3 {
+    width: 30%;
+    margin-left: 3%;
+    display: inline-block;
+    position: relative;
+    bottom: 13rem; left: 36rem;
+  }
+  .div-images {
+    margin-top: 5rem;
+  }
+  /*Contact us*/
+  .Header-contact-us {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .img-contact-us {
+    width: 30rem;
+  }
+  .h3-contact-us {
+    display: inline-block;
+    width: 15rem;
+    position: relative;
+    bottom: 10rem;
+  }
+  .h4-contact-us {
+    display: inline-block;
+    margin-left: 10rem;
+    margin-top: 5rem;
+  }
+  #phone {
+    margin-left: 35rem;
+  }
+  footer {
+    margin-top: 3rem;
+  }
