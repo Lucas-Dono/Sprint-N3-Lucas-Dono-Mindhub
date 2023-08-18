@@ -1,9 +1,0 @@
-.table, tr, th, td {
-    border: 1px solid rgb(156, 154, 174);
-    border-collapse: collapse;
-    height: 10%;
-    width: 10%;
-}
-tr {
-  text-align: center;
-}
