@@ -1,0 +1,424 @@
+
+/*estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background-color: rgb(249, 249, 249);
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+nav img{
+    height: 17px;
+    margin-left: 1rem;
+}
+
+html {
+  height: 100%;
+}
+/*Index*/
+.logo {
+    height: 3rem;
+}
+.logo {
+  order: 7;
+  justify-self: end;
+  margin-left: 28vw;  }
+
+nav {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+
+}
+
+.nav {
+
+    width: 100%;
+    white-space: nowrap;
+    background-color: rgb(156, 154, 174);
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.image-container {
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+}
+.section {
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.div-content {
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    align-items: center;
+}
+.text-image {
+    width: 50%;
+    margin-left: 15%;
+    
+}
+.image-text {
+    width: 30%;
+    margin-left: 8%;
+    display: inline-block;
+}
+.text-image2 {
+    width: 50%;
+    margin-left: 15%;
+    display: inline-block;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(156, 154, 174);
+    margin-top: 1rem;
+    height: 5rem;
+  }
+  .footer {
+    display: inline;
+    font-size: 1rem;
+  }
+  .barra {
+    border: 1px solid black; /* Puedes ajustar el color y grosor de la barra aquí */
+    margin: 1%;
+    width: 0.1rem; /* Ajusta el ancho de la barra según tus necesidades */
+    height: 15%;
+    display: inline-block;
+  }
+  /*About us*/
+  .img-section img {
+    width: 25%;
+    margin-left: 15%;
+  }
+  .img-section {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-section h3 {
+    width: 30%;
+    margin-left: 3%;
+    display: inline-block;
+    
+  }
+  .div-images {
+    margin-top: 3%;
+  }
+  /*Contact us*/
+  .Header-contact-us {
+    text-align: center;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-contact-us {
+    width: 30rem;
+  }
+  .h3-contact-us {
+    display: inline-block;
+    width: 15rem;
+  }
+  .h4-contact-us {
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .h4-contact-us a {
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  /*More Information*/
+  .table, tr, th, td {
+    border: 1px solid rgb(156, 154, 174);
+    border-collapse: collapse;
+    margin-left: 45%;
+    height: 10%;
+    width: 10%;
+}
+tr {
+  text-align: center;
+}
+
+
+.list {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  align-items: center;
+}
+.list ol {
+  margin-left: 10%;
+}
+section img {
+  width: 25rem;
+}
+.ordered-list {
+  display: flex;
+  flex-direction: column;
+}
+.prueba {
+  width: 30%;
+}
+/*raffle*/
+#bottom {
+  margin-bottom: 2%;
+}
+
+textarea {
+  resize: none;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Alinea el contenido verticalmente en el centro */
+  text-align: center;
+  flex-direction: row-reverse;
+}
+
+.datos {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinea el contenido horizontalmente en el centro */
+  width: 100%; /* Ancho máximo para el campo de datos */
+  margin: 0 auto; /* Centra el formulario de datos en el contenedor */
+}
+
+label, input, select, textarea {
+  margin-bottom: 10px; /* Agrega espacio entre los elementos */
+  box-sizing: border-box; /* Incluye el padding y border en el ancho total */
+}
+
+input[type="submit"] {
+  width: auto; /* Ajusta el ancho del botón al contenido */
+  margin-top: 10px; /* Agrega espacio arriba del botón */
+}
+
+/* Alinea verticalmente los elementos en .metodo-pago */
+.metodo-pago {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.tac {
+  flex-direction: row;
+}
+iframe {
+  margin-right: 5%;
+}
+
+
+@media (min-width:320px) and (max-width:768px){
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-left: 0;
+    }
+    nav img {
+      height: 1rem;
+      width: 1rem;
+    }
+    nav section {
+      display: flex;
+      flex-direction: row;
+    }
+    .logo {
+      height: 3rem;
+      width: 3rem;
+    }
+    .nav {
+      background-color:rgb(156, 154, 174);;
+      width: 100%;
+    }
+    h1 {
+      font-size: 200%;
+      text-align: center;
+    }
+    h2 {
+      font-size: 100%;
+      text-align: center;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .first-image {
+      width: 19rem;
+      height: 14rem;
+    }
+    .image-container{
+      height: 15rem;
+    }
+    .section {
+      margin-top: 0rem;
+    }
+    .image-text{
+      height: 15rem;
+      width: 7rem;
+      margin-left: 1rem;
+    }
+    .text-image{
+      width: 10rem;
+      margin-left: 5rem;
+    }
+    .text-image2 {
+      width: 10rem;
+      margin-left: 5rem;
+    }
+    .div-content {
+      height: 23rem;
+    }
+
+
+    footer {
+      height: 2rem;
+      width: 100%;
+      margin-top: 2rem;
+    }
+    .footer {
+      font-size: 0.8rem;
+    }
+    .img-contact-us {
+      width: 50%;
+    }
+    .Header-contact-us {
+      margin-top: 1rem;
+    }
+    .footer-contact {
+      margin-top: 15rem;
+  
+    }
+    .h4-contact-us {
+      margin-top: 1rem;
+    }
+    .img-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      
+    }
+    .img-section img{
+      margin-left: 0;
+    }
+    .img-section h3{
+      margin-left: 0;
+      width: 20rem;
+    }
+    .div-table {
+      display: flex;
+      justify-content: center;
+    }
+    .table{
+      margin-left: 0;
+      width: 80%;
+      height: 90%;
+    }
+      th, td {
+        height: 3rem;
+        width: 33%;
+        font-size: 150%;
+      }
+      .list {
+        flex-direction: column;
+        font-size: 1.5rem;
+        justify-content: center;
+      }
+      .list ol {
+        width: 80%;
+        max-width: 25rem;
+      }
+      .list li {
+        width: 100%;
+      }
+      .list img {
+        width: 80%;
+        max-width: 25rem;
+      }
+      .form {
+        flex-direction: column
+      }
+      form {
+        width: 70%;
+      } 
+      iframe {
+        width: 70%;
+      }
+      textarea {
+        width: 90%;
+      }
+  }
+
+  @media (min-width:768px) and (max-width:1024px){
+    h2 {
+      font-size: 1.4rem;
+    }
+    .logo {
+      order: 7;
+      justify-self: end;
+      margin-left: 7vw;  }
+    .image-text{
+      width: 20rem;
+    }
+    .text-image{
+      width: 20rem;
+      margin-left: 12rem;
+    }
+    .text-image2{
+      width: 20rem;
+      margin-left: 12rem;
+      margin-top: 2rem;
+    }
+    .h3-contact-us{
+      font-size: 1.3rem;
+      width: 17rem;
+      margin-left: 3rem;
+    }
+    .h4-contact-us{
+      margin-top: 4rem;
+    }
+    .h4-contact-us a {
+      font-size: 1.3rem;
+    }
+    .div-table {
+      display: flex;
+      justify-content: center;
+    }
+    .table{
+      margin-left: 0;
+      width: 60%;
+      height: 80%;
+    }
+      th, td {
+        height: 3rem;
+        width: 20%;
+        font-size: 120%;
+      }
+    footer {
+      margin-top: 5rem;
+    }
+  }

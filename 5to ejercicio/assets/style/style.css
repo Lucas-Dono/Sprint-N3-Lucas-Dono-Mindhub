@@ -1,0 +1,13 @@
+body {
+    background-image: url(../img/fondo-flex.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.angrybirds {
+    display: flex;
+    justify-content: flex-start;
+}
+.angrybirds img {
+    height: 5%;
+}

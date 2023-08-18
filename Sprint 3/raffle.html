@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/Style.css">
+    <link rel="shortcut icon" href="./assets/img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="nav">
+        <nav>
+            <img class= "logo" src="./assets/img/logo.png" alt="Logo of page">
+            <div><img src="assets/img/casa.png" alt="home icon">
+            <a class="ancor-nav" href="./index.html">Home</a></div>
+            <div>
+            <img src="assets/img/Contact.jpg" alt="Contact icon">
+            <a class="ancor-nav" href="./contact.html">Contact</a></div>
+            <div>
+            <img src="assets/img/Us.png" alt="About us icon">
+            <a class="ancor-nav" href="./aboutus.html">About Us</a></div>
+            <div>
+            <img src="./assets/img/Information.png" alt="Information Icon">
+            <a href="./information.html">More Information</a></div>
+            <div>
+            <img src="./assets/img/beneficios.png" alt="Beneficts Icon">
+            <a href="./benefitsTips.html">Benefits and Tips</a></div>
+            <div>
+                <img src="./assets/img/raffle.png" alt="raffle">
+            <a href="./raffle.html">Raffle</a></div>
+        </nav>
+    </div>
+    <h1>Raffle</h1>
+    <h2 id="bottom">You can collaborate to hold an exhibition event and participate in a Raffle to win an easel </h2>
+    <main class="form">
+        <form action="./Data/show_data.html" method="get">
+            <fieldset class="datos">
+                <legend>Datos principales</legend>
+
+                <label for="primer-nombre">Nombre:</label>
+                    <input type="text" id="primer-nombre" name="nombre-usuario" >
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido-usuario">
+
+                <label for="art">Choose theme art:</label>
+                <select name="art choosed" id="art">
+                    <option>None</option>
+                    <option>Abstract</option>
+                    <option>Pop art</option>
+                    <option>Realism</option>
+                </select>
+                
+                <label for="calendarie"> Select a date</label>
+                <input type="date" name="calendarie for a date" id="calendarie">
+            </fieldset>
+            <fieldset class="datos">
+                <h4>Métodos de pago</h4>
+
+    <div class="metodo-pago">
+        <label for="ef">efectivo</label>
+        <input type="radio" id="ef" name="metodo-pago" value="efectivo">
+    </div>
+
+    <div class="metodo-pago">
+        <label for="deb">Tarjeta de Débito</label>
+        <input type="radio" id="deb" name="metodo-pago" value="debito">
+    </div>
+
+    <div class="metodo-pago">
+        <label for="cd">Tarjeta de crédito</label>
+        <input type="radio" id="cd" name="metodo-pago" value="credito">
+    </div>
+
+    <div class="metodo-pago">
+        <label for="vir">Tarjeta virtual</label>
+        <input type="radio" id="vir" name="metodo-pago" value="virtual">
+    </div>
+            </fieldset>
+            <fieldset class="datos">
+
+            <label for="text">Agrega un comentario</label>
+                <textarea name="comment" id="text" cols="30" rows="10"></textarea>
+                <div class="tac"><input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  I Agree Terms & Coditions</div>
+
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3302.6877407466654!2d-118.34515!3d34.128743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDA3JzQzLjUiTiAxMTjCsDIwJzQyLjUiVw!5e0!3m2!1ses-419!2sar!4v1692220120785!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+    <footer>
+        <h4 class="footer">Created by Lucas Dono</h4>
+        <div class="barra"></div>
+        <h5 class="footer">Musemind company’s</h5>
+    </footer>
+</body>
+</html>

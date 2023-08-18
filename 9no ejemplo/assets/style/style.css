@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {text-align: center;}
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+textarea {
+    resize: none;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinea el contenido verticalmente en el centro */
+    text-align: center;
+    flex-direction: row-reverse;
+  }
+  
+  .datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea el contenido horizontalmente en el centro */
+    width: 100%; /* Ancho máximo para el campo de datos */
+    margin: 0 auto; /* Centra el formulario de datos en el contenedor */
+  }
+  
+  label, input, select, textarea {
+    margin-bottom: 10px; /* Agrega espacio entre los elementos */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho total */
+  }
+  
+  input[type="submit"] {
+    width: auto; /* Ajusta el ancho del botón al contenido */
+    margin-top: 10px; /* Agrega espacio arriba del botón */
+  }
+  .gosde {
+    border: 0.1rem solid grey;
+    margin-right: 1rem;
+  }
+  @media (min-width:320px) and (max-width:768px){
+    .body {
+      flex-direction: column;
+      align-items: center;
+      background-color:darkblue;
+      color: crimson;
+    }
+    .datos {
+      width: 85%;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+    iframe {
+      width: 16rem;
+      height: 16rem;
+      justify-self: center
+    }
+    .gosde {
+      width: 16rem;
+      margin-right: 0;
+    }
+  }
+  @media (min-width:768px) and (max-width:1024px){
+    .body {flex-direction: row;
+    justify-content: space-around;
+    background-color: gray;}
+
+    .gosde{
+      width: 20rem;
+      height: 26rem;
+      border: 0.2rem solid black;
+    }
+    h3 {
+      font-size: 2rem;
+      font-weight: bolder;
+    }
+    h4 {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    iframe {
+      width: 19rem;
+      height: 19rem;
+    }
+    label {
+      font-size: 1.5rem;
+    }
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+    <h1>Registro-obra social</h1>
+    <div class="body">
+    <div class="gosde">
+        <h3>Registro desde GosDe</h3>
+    <h4>Tel: 2324653482</h4>
+    <h4>Email: contacto@gosde.com</h4>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13618.638579580445!2d-58.41738500164769!3d-34.6057125473994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca6665a52ca5%3A0xa08481f63a95b599!2sHospital%20Italiano%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1692328104714!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div>
+    <form action="./Data/show_data.html" method="get">
+        <fieldset class="datos">
+            <legend>Datos principales</legend>
+
+            <label for="nombre">Fullname:</label>
+                <input type="text" id="nombre" name="nombre-usuario" >
+
+                <label for="mail">Email:</label>
+                <input type="text" id="mail" name="e-mail" >
+
+            <label for="text">Agrega un comentario</label>
+            <textarea name="comment" id="text" cols="30" rows="10"></textarea>
+            <div class="tac"><input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  I Agree Terms & Coditions</div>
+
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+</div>
+</div>
+
+</body>
+</html>
